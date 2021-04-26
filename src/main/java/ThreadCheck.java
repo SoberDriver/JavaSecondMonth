@@ -4,8 +4,6 @@ public class ThreadCheck {
     public static void main(String[] args) throws InterruptedException {
         firstMethod();
         secondMethod();
-
-
     }
 
     public  static  void firstMethod(){
@@ -19,7 +17,6 @@ public class ThreadCheck {
         }
         System.out.println("Время выполнения первого метода: " + (System.currentTimeMillis() - a));
     }
-
 
     public  static  void secondMethod() throws InterruptedException {
     float[] arr  = new float[SIZE];
